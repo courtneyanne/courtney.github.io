@@ -24,6 +24,12 @@ h1{
   line-height:50px;
   font-weight:bold;
 }
+h1 sub{
+  color:#aaa;
+  vertical-align:baseline;
+}
+hi sub:before{content:")";
+}
 img{
   border-radius:20px;
 }
