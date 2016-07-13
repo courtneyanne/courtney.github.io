@@ -28,7 +28,11 @@ h1 sub{
   color:#aaa;
   vertical-align:baseline;
 }
-hi sub:before{content:")";
+hi sub:before{
+  content:"(";
+}
+hi sub:after{
+  content:")";
 }
 img{
   border-radius:20px;
