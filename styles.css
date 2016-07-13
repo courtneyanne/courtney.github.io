@@ -28,10 +28,10 @@ h1 sub{
   color:#aaa;
   vertical-align:baseline;
 }
-hi sub:before{
+h1 sub:before{
   content:"(";
 }
-hi sub:after{
+h1 sub:after{
   content:")";
 }
 img{
